@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <title>WD-MINOR-JUNE</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" style="color: white;font-size: 25px;text-decoration: none;">IIT GUWAHATI</a>  
+                <div class="nav-links" id="navLinks">
+                    <i  class="fa fa-window-close-o" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="alcheringa.html">ALCHERINGA</a></li>
+                    <li><a href="techniche.html">TECHNICHE</a></li>
+                    <li><a href="cna.html">CnA</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>EVENTS</h1>
+       </section>
+       <section class="events">
+        <h1>Events at Institute</h1>
+        <p>These events are organised every year by team management of IITG</p>
+       <div class="row">
+           <div class="events-col">
+               <h3>Alcheringa</h3>
+               <p> Alcheringa, also known as "Alcher", is the annual cultural festival of Indian Institute of Technology (IIT), Guwahati.Spread over 3 days and 4 nights, Alcheringa is conducted towards the end of January every year.</p>
+           </div>
+           <div class="events-col">
+               <h3>Techniche</h3>
+               <p> Spread over three days and four nights, Techniche is generally conducted towards the end of August each year.</p>
+           </div>
+           <div class="events-col">
+               <h3>Consulting & Analytics</h3>
+               <p>Conduct events with the motto of promoting technology, creativity and innovation.</p>
+           </div>
+       </div>
+   </section>
+   <section class="place">
+    <h1>Event Pictures</h1>
+    <p>These events are organised by IITG  Team management.</p>
+
+    <div class="row">
+        <div class="place-col">
+            <img src="https://qph.fs.quoracdn.net/main-qimg-3c5b2d0f27a6bda5abc0ca74b6a7b6eb">
+            <div class="layer">
+                <h3>IITG Field</h3>
+            </div>
+        </div>
+        <div class="place-col">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.8lIj7vPRWyKYs2-KAV7I3AHaD3&pid=Api&P=0&w=313&h=164" style="height: 100%;">
+            <div class="layer">
+                <h3>Tech-Expo Center</h3>
+            </div>
+        </div>
+        <div class="place-col">
+            <img src="https://qph.fs.quoracdn.net/main-qimg-1e9434929aa2bca939cc6adf09502875" style="height: 100%;">
+            <div class="layer">
+                <h3>CnA Club Center</h3>
+            </div>
+        </div>
+    </div>
+</section>
+       
+        <section class="footer">
+            <h4>ABOUT US</h4>
+            <p> We organise these events by IITG team managements of every clubs and try to make it perfect, enjoyable and <br>valuable for every students and so we hope  that every students will forward to support us and will take perticipate at these events. </p>
+                
+            <div class="navbar">
+                <a class="ray" href=""><i class="fa fa-fw fa-facebook"></i></a>
+              
+                <a class="ray" href=""><i class="fa fa-fw fa-instagram"></i></a>
+                <a class="ray" href=""><i class="fa fa-fw fa-twitter"></i></a>
+                <a class="ray" href=""><i class="fa fa-fw fa-github"></i></a>
+                <a class="ray" href=""><i class="fa fa-fw fa-telegram"></i></a>
+              
+              </div> 
+             <p> Made with <i class="fa fa-heart-o"></i> by Bijirgiri Basumatary</p>    
+        </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0px";
+            }
+            function hideMenu(){
+                navLinks.style.right= "-200px";
+            }
+        </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <title>WD-MINOR-JUNE</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" style="color: white;font-size: 25px;text-decoration: none;">IIT GUWAHATI</a>  
+                <div class="nav-links" id="navLinks">
+                    <i  class="fa fa-window-close-o" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="alcheringa.html">ALCHERINGA</a></li>
+                    <li><a href="techniche.html">TECHNICHE</a></li>
+                    <li><a href="cna.html">CnA</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+       </section>
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                <h1> One of the biggest festival and competitive Tech Events</h1>
+                <p>Free course on Data Science and Machine Learning is given by the CnA Club. Techniche Conceptualize with an aim to motivate the youth of our nation to think out of the box, expand their horizons and reach the zenith of success in all.</p>
+                <a href="" class="hero-btn btn">EXPLORE NOW</a> 
+                </div>   
+                <div class="about-col">
+                    <img src="https://media-exp1.licdn.com/dms/image/C511BAQGdB1XsNL5uZw/company-background_10000/0/1566203994117?e=2159024400&v=beta&t=9PP71HOty1IyTzVncQv87F-oFFomGZDUiFNcVjCsbao">
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <h4>ABOUT US</h4>
+            <p> We organise these events by IITG team managements of every clubs and try to make it perfect, enjoyable and <br>valuable for every students and so we hope  that every students will forward to support us and will take perticipate at these events. </p>
+                
+            <div class="navbar">
+                <a class="ray" href=""><i class="fa fa-fw fa-facebook"></i></a>
+              
+                <a class="ray" href=""><i class="fa fa-fw fa-instagram"></i></a>
+                <a class="ray" href=""><i class="fa fa-fw fa-twitter"></i></a>
+                <a class="ray" href=""><i class="fa fa-fw fa-github"></i></a>
+                <a class="ray" href=""><i class="fa fa-fw fa-telegram"></i></a>
+              
+              </div> 
+             <p> Made with <i class="fa fa-heart-o"></i> by Bijirgiri Basumatary</p>    
+        </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0px";
+            }
+            function hideMenu(){
+                navLinks.style.right= "-200px";
+            }
+        </script>
+</body>
+</html>
